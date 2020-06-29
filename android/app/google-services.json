@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "699745466125",
+    "firebase_url": "https://flash-chat-4800c.firebaseio.com",
+    "project_id": "flash-chat-4800c",
+    "storage_bucket": "flash-chat-4800c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699745466125:android:b360dab37332313f216244",
+        "android_client_info": {
+          "package_name": "co.yashjain.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699745466125-35122ig4e56gn110ai09odr26l47ouvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTg_7zptc-PATY9-ziwi1IOnSVuT8Ypjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699745466125-35122ig4e56gn110ai09odr26l47ouvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
