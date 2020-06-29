@@ -11,7 +11,7 @@ class ChatScreen extends StatefulWidget {
 class _ChatScreenState extends State<ChatScreen> {
   final _auth = FirebaseAuth.instance;
   FirebaseUser loggedInUser;
-  
+
   @override
   void initState() {
     super.initState();
@@ -36,9 +36,10 @@ class _ChatScreenState extends State<ChatScreen> {
         leading: null,
         actions: <Widget>[
           IconButton(
-              icon: Icon(Icons.close),
+              icon: Icon(Icons.exit_to_app),
               onPressed: () {
-                //Implement logout functionality
+                _auth.signOut(); //user logged out
+                Navigator.pop(context);
               }),
         ],
         title: Text('⚡️Chat'),
