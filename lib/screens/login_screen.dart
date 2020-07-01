@@ -59,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   password = value;
                 },
                 decoration: kTextFieldDecoration.copyWith(
-                    hintText: 'Enter your password.'),
+                    hintText: 'Enter your password'),
               ),
               SizedBox(
                 height: 24.0,
@@ -69,6 +69,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   title: 'Log In',
                   onPressed: () async {
                     setState(() {
+                      FocusScope.of(context).unfocus();
+        
                       showSpinner = true;
                     });
                     try {

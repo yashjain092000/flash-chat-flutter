@@ -70,6 +70,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   title: 'Register',
                   onPressed: () async {
                     setState(() {
+                      FocusScope.of(context).unfocus();
                       showSpinner=true;
                     });
                     try {
